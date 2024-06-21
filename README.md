@@ -1,2 +1,5 @@
-# modelando_funcoes_iphone
-Desafio de modelar Iphone e suas funções de música, chamadas e internet com UML e Java. 
+# Modelando Funções iPhone.
+
+Funções de: reprodutor de música, navegador de internet e chamadas.
+
+Diagrama de classes disponível no arquivo README.MD do projeto Java.
