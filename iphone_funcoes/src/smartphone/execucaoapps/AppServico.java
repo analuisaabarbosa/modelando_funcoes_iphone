@@ -1,11 +1,10 @@
-package smartphone;
+package smartphone.execucaoapps;
 
-import smartphone.funcoes.AparelhoTelefonico;
-import smartphone.funcoes.NavegadorInternet;
-import smartphone.funcoes.ReprodutorMusical;
+import smartphone.apps.AparelhoTelefonico;
+import smartphone.apps.NavegadorInternet;
+import smartphone.apps.ReprodutorMusical;
 
-public class Iphone implements ReprodutorMusical, AparelhoTelefonico, NavegadorInternet{
-
+public class AppServico implements ReprodutorMusical, NavegadorInternet, AparelhoTelefonico{
     public void tocar() {
         System.out.println("Tocando música.");
     }
@@ -15,7 +14,7 @@ public class Iphone implements ReprodutorMusical, AparelhoTelefonico, NavegadorI
     }
 
     public void selecionarMusica() {
-        System.out.println("Música selecionada");
+        System.out.println("Música selecionada.");
     }
 
     public void ligar(String numero) {
@@ -30,9 +29,11 @@ public class Iphone implements ReprodutorMusical, AparelhoTelefonico, NavegadorI
         System.out.println("Correio de voz iniciado.");
     }
 
-    public void exibirPagina() {
-        System.out.println("Exibindo página");
+    
+    public void exibirPagina(String url) {
+        System.out.println("Exibindo página.");
     }
+   
 
     public void adicionarNovaAba() {
         System.out.println("Nova página adicionada.");
@@ -41,5 +42,4 @@ public class Iphone implements ReprodutorMusical, AparelhoTelefonico, NavegadorI
     public void atualizarPagina() {
         System.out.println("Página atualizada.");
     }
-
 }

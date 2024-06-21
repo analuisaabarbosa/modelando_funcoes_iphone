@@ -1,4 +1,4 @@
-package smartphone.funcoes;
+package smartphone.apps;
 public interface ReprodutorMusical {
     public void tocar();
     public void pausar();
